@@ -19,6 +19,9 @@
             border: none;
             background-color: #fff;
         }
+        .btn a{
+            color: white;
+        }
     </style>
 </head>
 
@@ -49,7 +52,7 @@
    <button> 发送验证码</button>
 </div> 
 <section class="nav4">
-    <div class="btn">立即注册</div>
+    <div class="btn"><a href="./login.html">立即注册</a></div>
 
 </section>
 
@@ -61,6 +64,7 @@
     var phoneNumber=document.getElementsByTagName('input')[0];
     var yanzhNumber=document.getElementsByTagName('input')[1];
     var passWord=document.getElementsByTagName('input')[2]
+   
     var yanzhengbtn=document.getElementsByTagName('button')[0]
     
     var timer;
@@ -109,4 +113,5 @@ yanzhNumber.onblur=function(){
 //     alert('密码设置成功')
 // }
 // // }
+
 </script>
