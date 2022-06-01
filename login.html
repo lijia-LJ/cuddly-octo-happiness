@@ -95,27 +95,18 @@
             alert('请输入您的密码')
         }
     }
-    //     passone.onfocus=function(){
-    //     alert('请输入6位由数字字母下划线组成的密码');
-    // }
-    //     passone.onblur=function(){
-    //         if(passone.value.length!=6){
-    //        alert('密码只能是6位，请重新设置！');}
+    
+    
+    
+var timer;
+    var obj;
+    var num = 60;
+    obj = [];
+var teltwo=document.getElementsByTagName('input')[2]
+    var passtwo=document.getElementsByTagName('input')[3]
+    yanzheng.onclick=function(){
+        if(!/^1[3578]\d{9}$/.test(teltwo.value)){
 
-    //     // }else if(!/^\w+$/.test(passone.value)){
-    //     //     alert('密码必须包含数字字母下划线！');
-    //     //     // span4.style.color='red';
-    //     // }
-    //     else{
-    //         alert('密码正确'); 
-    //         // span4.style.color='yellowgreen';
-    //     }
-
-    //     }
-    var teltwo = document.getElementsByTagName('input')[2]
-    var passtwo = document.getElementsByTagName('input')[3]
-    yanzhengbtn.onclick = function () {
-        if (!/^1[3578]\d{9}$/.test(phoneNumber.value)) {
             alert('手机号不正确')
         } else {
             clearInterval(timer);
