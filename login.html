@@ -1,0 +1,98 @@
+<!DOCTYPE html>
+<html>
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/reset.css">
+    <link rel="stylesheet" href="./css/login.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!--头部-->
+<header>
+    <h1><a href="#"><img src="image/index/logo.jpg" alt=""/></a></h1>
+
+    <div class="icon">
+        <a href="#"><img src="image/index/my.jpg" alt=""/></a>
+        <a href="#"><img src="image/index/xiazai.jpg" alt=""/></a>
+    </div>
+</header>
+<!-- 导航栏 -->
+<section class="nav1">
+    <p><strong>首页</strong>>我的>登录</p>
+</section>
+<div class="nav2">
+    <ul class="list1">
+    <li class="origin">普通登录</li>
+    <li>验证码快捷登录</li>
+</ul>
+</div>
+<!-- 普通登录 -->
+<div class="nav3">
+<ul class="list2">
+    <li><input type="text" placeholder="请输入手机号"></li>
+    <li><input type="text" placeholder="请输入密码"></li>
+</ul>
+<ul class="list3">
+    <li><input type="text" placeholder="请输入手机号"></li>
+    <li><input type="text" placeholder="请输入短信中的验证码"></li>
+</ul>
+</div>
+<!--  验证码登录 -->
+<div class="yanzheng">
+    发送验证码
+</div> 
+<!-- 登录按钮 -->
+<section class="nav4">
+    <div class="btn">立即登录</div>
+<a href="">立即注册</a>
+<a href="">忘记密码</a>
+</section>
+</body>
+</html>
+<script>
+    // 获取普通登录 和  验证码登录
+    var loginOne=document.getElementsByTagName('li')[0];
+    var loginTwo=document.getElementsByTagName('li')[1];
+    var list1=document.getElementsByClassName('list2')[0];
+    var list2=document.getElementsByClassName('list3')[0];
+    var yanzheng=document.getElementsByClassName('yanzheng')[0]
+    loginOne.onclick=function(){
+        this.className='origin';
+        loginTwo.className='';
+        list1.style.display='block';
+        list2.style.display='none';
+        yanzheng.style.display='none';
+       
+    }
+    loginTwo.onclick=function(){
+        this.className='origin';
+        loginOne.className='';
+        list2.style.display='block';
+        list1.style.display='none';
+        yanzheng.style.display='block';
+       
+       
+    }
+    // // 验证手机号
+    // // 获取手机号输入框
+    // var telone=document.getElementsByTagName('input')[0]
+    // telone.onfocus=function(){
+    //   alert('输入11位手机号')
+    // }
+    // telone.onblur=function(){
+    //     if(!/^1[3578]\d{9}$/.test(telone.value)){
+    //         alert('输入有误')
+    //     }else {
+    //         alert('获取验证码')
+    //     }
+    // }
+    
+    
+
+  
+</script>

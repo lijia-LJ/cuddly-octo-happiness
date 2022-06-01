@@ -17,6 +17,18 @@ a {
     color: #666666;
 }
 
+<<<<<<< HEAD
+=======
+html {
+    font-size: 100px;
+}
+body{
+    background: #f5f5f5;
+    font-size: 0.12rem;
+
+}
+
+>>>>>>> bbea4aa6c00f469877f43470d47d283acf740d48
 /*��ҳͷ������*/
 header {
     height: 0.42rem;
@@ -44,9 +56,14 @@ header .icon img {
     height: 0.29rem;
     margin-left: 0.2rem;
 }
+<<<<<<< HEAD
 
 /*��ҳ�ײ���Ȩ����*/
 .copyright {
+=======
+/*��ҳ�ײ���Ȩ����*/
+.copyright{
+>>>>>>> bbea4aa6c00f469877f43470d47d283acf740d48
     background: #2f3130;
     color: #939494;
     padding: 0 0.15rem;
