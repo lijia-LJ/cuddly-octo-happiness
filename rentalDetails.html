@@ -1,1 +1,151 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="./css/in.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!--头部-->
+    <header>
+        <div class="h"><a href="#"><img src="image/index/logo.jpg" alt="" /></a></div>
+        <div class="icon">
+            <a href="#" class="o"><img src="image/index/my.jpg" alt="" /></a>
+            <a href="#" class="t"><img src="image/index/xiazai.jpg" alt="" /></a>
+        </div>
+    </header>
+    <div class="boxs">
+        <span class="black">首页</span>&nbsp;>&nbsp;<span>北京租房</span>&nbsp;>&nbsp;
+        <span>房源信息</span>
+    </div>
+    <div class="det_img">
+        <span>分享</span>
+    </div>
+    <div class="det_c">
+        <h1>天鹅湾小区精装两居，满五唯一，业主换房急售</h1>
+        <a href="">关注</a>
+    </div>
+    <ul class="det_d">
+        <li>
+            <div class="det_do">租金</div>
+            <div class="det_dt">2300元/月</div>
+        </li>
+        <li>
+            <div class="det_do">房型</div>
+            <div class="det_dt">2室1厅</div>
+        </li>
+        <li>
+            <div class="det_do">面积</div>
+            <div class="det_dt">204平米</div>
+        </li>
+    </ul>
+    <ul class="houseMes2">
+        <li>
+            <div><span>楼层：</span><span>高楼/17层</span></div>
+            <div><span>朝向：</span><span>南北</span></div>
+        </li>
+        <li>
+            <div><span>装修：</span><span>精装</span></div>
+            <div><span>供暖：</span><span>集体供暖</span></div>
+        </li>
+        <li>
+            <div><span>年代：</span><span>2007年</span></div>
+            <div><span>楼型：</span><span>板楼</span></div>
+        </li>
+    </ul>
+    <div class="det_e">
+        <div class="det_eo">
+            <h1>经济人房评</h1>
+        </div>
+        <div class="det_et">
+            地理位置：晶都国际处于酒仙桥中心地带，毗邻
+            北京三大商圈，紧邻丽都商圈，隔四环与望京商
+            圈相望，西南紧挨燕莎商圈，地理位置优越。周
+            边配套：颐堤港商业中心，兆维大厦...
+        </div>
+    </div>
+    <div class="det_e dedd">
+        <div class="det_eo">
+            <h1>看客户记录</h1>
+        </div>
+        <div class="det_et">
+            近一个月新增0位看房客户，共50位
+        </div>
+    </div>
+    <div class="det_e dedt">
+        <div class="det_eo">
+            <h1>位置及周边</h1>
+        </div>
+        <div class="det_et dedto">
+            <h3>地址：[黄村]时代龙和</h3>
+            <img src="./image/rentalList/map.png" alt="">
+        </div>
+    </div>
+    <div class="det_e ef">
+        <div class="det_eo">
+            <h1>小区成交历史</h1>
+        </div>
+        <div class="det_et">
+            <p>3室2厅，146平米，<span>5000元</span></p>
+            <p>签约日期：2015-02-26</p>
+        </div>
+    </div>
+    <div class="det_f">
+        <div class="fao">
+        </div>
+        <div class="fa">
+            <p>张三</p>
+            <p>4000015862008</p>
+        </div>
+        <div class="ftwo">
+            <span></span>
+            致电
+        </div>
+        <div class="fthree">
+            <span></span>
+            短信
+        </div>
+    </div>
+    <!--版权底部-->
+    <footer class="copyright">
+        <h2>北京找房无忧 > 首页</h2>
+        <div class="content">
+            <ul>
+                <li>
+                    <img src="./image/index/apple.png" alt="" />
+                    <div>
+                        <p>iPhone</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./image/index/android.png" alt="" />
+                    <div>
+                        <p>Android</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="text">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        var client_w = document.documentElement.clientWidth || document.body.clientWidth;
+        var html = document.getElementsByTagName('html')[0];
+        html.style.fontSize = client_w / ui_w * 10 + 'px';
+    }
+    window.onresize = setRem;
+</script>

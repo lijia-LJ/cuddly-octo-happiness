@@ -1,1 +1,158 @@
+<!DOCTYPE html>
+<html>
 
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, maximum-scale=1.0, user-scalable=0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>Document</title>
+    <link rel="stylesheet" href="">
+    <!-- <link rel="stylesheet" href="./css/index.css" /> -->
+    <!-- <link rel="stylesheet" href="./css/reset.css" /> -->
+    <link rel="stylesheet" href="./css/in.css">
+    <script src=""></script>
+</head>
+
+<body>
+    <!--头部-->
+    <header>
+        <div class="h"><a href="#"><img src="image/index/logo.jpg" alt="" /></a></div>
+        <div class="icon">
+            <a href="#" class="o"><img src="image/index/my.jpg" alt="" /></a>
+            <a href="#" class="t"><img src="image/index/xiazai.jpg" alt="" /></a>
+        </div>
+    </header>
+    <div class="boxs">
+        <span class="black">首页</span>&nbsp;>&nbsp;<span>北京租房</span>
+    </div>
+    <div class="rentalist">
+        <div class="aa">
+            <input type="text">
+            <span></span>
+        </div>
+    </div>
+    <ul class="mostChose">
+        <li>
+            <h1>区域</h1>
+        </li>
+        <li>
+            <h1>月租</h1>
+        </li>
+        <li>
+            <h1>房型</h1>
+        </li>
+        <li>
+            <h1>更多</h1>
+        </li>
+    </ul>
+    <ul class="f fone f_ren">
+        <li>
+            <div class="oo">
+                <img src="./image/rentalList/img1.png" alt="">
+            </div>
+            <div class="tt">
+                <h2>南沙滩小区 超低价急售</h2>
+                <span class="ooo">2室1厅 96m² 南北</span>
+                <br>
+                <span class="ooo">青岛新天地</span>
+                <br>
+                <button class="green">集中供暖</button>
+                <span class="tso">3700元/月</span>
+            </div>
+        </li>
+        <li>
+            <div class="oo">
+                <img src="./image/rentalList/img2.png" alt="">
+            </div>
+            <div class="tt">
+                <h2>青年汇二期 免税三居</h2>
+                <span class="ooo">3室2厅 129m² 南北</span>
+                <br>
+                <span class="ooo">青年汇家园</span>
+                <br>
+                <button class="green">集中供暖</button>
+                <span class="tso">4610元/月</span>
+            </div>
+        </li>
+        <li>
+            <div class="oo">
+                <img src="./image/rentalList/img3.png" alt="">
+            </div>
+            <div class="tt">
+                <h2>博雅德源稀缺两居 钥匙房源</h2>
+                <span class="ooo">2室2厅 126m² 南北</span>
+                <br>
+                <span class="ooo">西二旗</span>
+                <br>
+                <button class="green">天然气供暖</button>
+                <span class="tso">3420元/月</span>
+            </div>
+        </li>
+        <li>
+            <div class="oo">
+                <img src="./image/rentalList/img4.png" alt="">
+            </div>
+            <div class="tt">
+                <h2>朝阳北路赠车库自住首选</h2>
+                <span class="ooo">5室3厅 260m² 南北</span>
+                <br>
+                <span class="ooo">武夷花园二手房</span>
+                <br>
+                <button class="green">集中供暖</button>
+                <span class="tso">5408元/月</span>
+            </div>
+        </li>
+        <li>
+            <div class="oo">
+                <img src="./image/rentalList/img5.png" alt="">
+            </div>
+            <div class="tt">
+                <h2>金汉旭城 东南金角一居</h2>
+                <span class="ooo">1室1厅 60m² 东南</span>
+                <br>
+                <span class="ooo">鲁谷二手房</span>
+                <br>
+                <button class="green">集中供暖</button>
+                <span class="tso">3300元/月</span>
+            </div>
+        </li>
+    </ul>
+
+    <!--版权底部-->
+    <footer class="copyright">
+        <h2>北京找房无忧 > 首页</h2>
+        <div class="content">
+            <ul>
+                <li>
+                    <img src="./image/index/apple.png" alt="" />
+                    <div>
+                        <p>iPhone</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+                <li>
+                    <img src="./image/index/android.png" alt="" />
+                    <div>
+                        <p>Android</p>
+                        <p>客户端</p>
+                    </div>
+                </li>
+            </ul>
+            <div class="text">
+                <p>北京找房无忧房地产经纪公司</p>
+                <p>网络经营许可证京ICP备20160812号</p>
+            </div>
+        </div>
+    </footer>
+</body>
+
+</html>
+<script>
+    function setRem() {
+        var ui_w = 375;
+        var client_w = document.documentElement.clientWidth || document.body.clientWidth;
+        var html = document.getElementsByTagName('html')[0];
+        html.style.fontSize = client_w / ui_w * 10 + 'px';
+    }
+    window.onresize = setRem;
+</script>

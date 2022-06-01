@@ -1,0 +1,709 @@
+* {
+    margin: 0;
+    padding: 0;
+}
+
+html {
+    font-size: 10px;
+    background-color: rgb(245, 245, 245);
+}
+
+li {
+    list-style: none;
+}
+
+input {
+    outline: none;
+}
+
+a {
+    text-decoration: none;
+    color: #666666;
+}
+
+header {
+    width: 100%;
+    height: 5rem;
+    background-color: rgb(255, 138, 0);
+    display: flex;
+    justify-content: space-around;
+}
+
+.h {
+    width: 12rem;
+    height: 4rem;
+    margin: 5px 1px 1px -16px;
+}
+
+.h>a {
+    display: inline-block;
+    width: 100%;
+    height: 100%;
+}
+
+.h>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.icon>a {
+    display: inline-block;
+    width: 2.8rem;
+    height: 3.8rem;
+
+}
+
+.o {
+    margin: 5px 1px 1px 1px;
+}
+
+.t {
+    margin: 1px 1px 1px 18px;
+}
+
+.icon>a>img {
+    width: 100%;
+    height: 100%;
+}
+
+.box {
+    width: 100%;
+    height: 300px;
+    background: url(../image/index/banner.png) no-repeat;
+    background-size: cover;
+    position: relative;
+
+}
+
+.a {
+    width: 90%;
+    height: 4rem;
+    border: 1px solid rgb(71, 70, 70);
+    position: absolute;
+    bottom: 1.2rem;
+    left: 50%;
+    transform: translateX(-50%);
+    background-color: white;
+    border-radius: 5px;
+    /* margin-left: 16px; */
+}
+
+.a>span {
+    width: 40px;
+    height: 40px;
+    background-size: cover;
+    display: block;
+    background-color: rgb(223, 183, 183);
+    background: url(../image/index/seach.jpg) no-repeat;
+    margin: 6px 1px 1px 13px;
+    float: left;
+}
+
+.a>input {
+    display: inline-block;
+    height: 20px;
+    width: 200px;
+    margin: 11px 1px 1px 1px;
+    border: none;
+}
+
+.cen {
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    width: 100%;
+    height: 16rem;
+    background-color: rgb(255, 138, 0);
+    list-style: none;
+}
+
+.cen>li {
+    padding: 2.1rem 0px;
+    width: 20%;
+    height: 10rem;
+    /* background-color: rgb(238, 124, 124); */
+    text-align: center;
+    color: white;
+    font-size: 1.7rem;
+}
+
+.cen>li>div {
+    width: 8rem;
+    height: 5rem;
+}
+
+.cen>li>div>img {
+    width: 100%;
+}
+
+.cen>li>span {
+    float: left;
+    margin: 38px 1px 1px 17px;
+}
+
+.d {
+    width: 100%;
+    height: 30rem;
+    margin-top: 1.5rem;
+}
+
+.d>img {
+    width: 100%;
+}
+
+.e {
+    margin-top: 1.5rem;
+    background-color: rgb(255, 138, 0);
+    width: 100%;
+    height: 9.4rem;
+    overflow: hidden;
+}
+
+.eo {
+    margin-left: 30px;
+    margin-top: 10px;
+    font-size: 1.5rem;
+    color: white;
+}
+
+.eo>h4 {
+    margin-top: 5px;
+}
+
+.f {
+    width: 100%;
+    list-style: none;
+    padding: 0px 24px;
+    background-color: white;
+    overflow: hidden;
+    height: 60rem;
+    box-sizing: border-box;
+}
+
+.f>li {
+    height: 16rem;
+    width: 100%;
+    display: flex;
+    padding: 3px 0px;
+    margin-top: 39px;
+    border-bottom: 1px solid rgb(255, 138, 0);
+
+}
+
+.oo {
+    float: left;
+    width: 30%;
+    height: 13rem;
+}
+
+.oo>img {
+    width: 100%;
+}
+
+.tt {
+    width: 65%;
+    margin-left: 18px;
+    float: left;
+    /* display: flex;
+    flex-direction: column;
+    justify-content: space-around; */
+}
+
+.tt>h1 {
+    font-size: 2rem;
+}
+
+.tt>span {
+    display: inline-block;
+    margin-top: 5px;
+}
+
+.ooo {
+    font-size: 16px;
+}
+
+.tso {
+    font-size: 18px;
+    color: rgb(255, 138, 0);
+    font-weight: 550;
+    margin-left: 11px;
+}
+
+.tst {
+    font-size: 18px;
+    margin-top: 8px;
+    color: gray;
+}
+
+.tr {
+    font-size: 18px;
+    margin-top: 8px;
+    color: gray;
+    margin-left: 22px;
+}
+
+.btn {
+    margin-top: 10px;
+}
+
+.btn>button {
+    padding: 5px 5px;
+    border: none;
+    background-color: rgb(244, 247, 249);
+    color: gray
+}
+
+#no {
+    border: none;
+}
+
+.trr {
+    margin-left: 11px;
+}
+
+#no>.go {
+    width: 100%;
+    height: 24rem;
+    background-color: #fff;
+    margin-top: 1rem;
+}
+
+.goo {
+    width: 100%;
+    height: 7rem;
+    display: flex;
+    justify-content: space-evenly;
+    align-items: center;
+    border-bottom: 1px solid rgb(255, 138, 0);
+}
+
+.pt {
+    font-size: 23px;
+    text-decoration: none;
+    color: gray;
+}
+
+.org {
+    font-size: 23px;
+    text-decoration: none;
+    color: rgb(255, 138, 0);
+}
+
+
+.gg a {
+    text-decoration: none;
+    color: gray;
+    font-size: 16px;
+}
+
+.gg {
+    list-style: none;
+    display: flex;
+    flex-wrap: wrap;
+}
+
+.gg>li {
+    width: 48%;
+    height: 4rem;
+    text-indent: 2rem;
+    line-height: 4rem;
+}
+
+.copyright {
+    background: #2f3130;
+    color: #939494;
+    padding: 0 1.5rem;
+}
+
+.copyright h2 {
+    font-size: 1.4rem;
+    height: 4rem;
+    line-height: 4rem;
+    border-bottom: 1px solid #3e403f;
+}
+
+.copyright .content {
+    padding: 1.5rem 0;
+}
+
+.copyright ul {
+    display: flex;
+}
+
+.copyright li {
+    flex: 1;
+    text-align: center;
+    display: flex;
+    justify-items: center;
+}
+
+.copyright li img {
+    width: 1.8rem;
+    height: 2.1rem;
+    margin-right: 1.6rem;
+    margin-left: 1rem;
+}
+
+.copyright .text {
+    margin-top: 1.6rem;
+}
+
+.copyright p {
+    font-size: 1.2rem;
+}
+
+.copyright .text p {
+    line-height: 1.8rem;
+    text-align: center;
+
+}
+
+.download {
+    width: 100%;
+    height: 5rem;
+    background: rgba(0, 0, 0, 0.5);
+    line-height: 5rem;
+    position: fixed;
+    left: 0;
+    bottom: 0;
+    display: flex;
+    padding-left: 2rem;
+}
+
+.download .close {
+    width: 1.4rem;
+    height: 1.5rem;
+    position: absolute;
+    top: 0;
+    left: 0;
+}
+
+.downLft {
+    display: flex;
+    justify-content: space-around;
+    flex: 6;
+    font-size: 1.2rem;
+    color: #fff;
+}
+
+.downLft .icon img {
+    width: 3rem;
+    height: 3rem;
+    margin-top: 1rem;
+}
+
+.downLft .text {
+    margin-top: -1rem;
+}
+
+.downLft .text p:nth-of-type(1) {
+    height: 1.8rem;
+    font-size: 1.8rem;
+}
+
+.downLft .text p:nth-of-type(2) {
+    height: 1.2rem;
+}
+
+.downRight {
+    background: #ff8a00;
+    flex: 4;
+    line-height: 5rem;
+    font-size: 1.6rem;
+    text-align: center;
+}
+
+.downRight a {
+    color: #fff;
+}
+
+.boxs {
+    width: 100%;
+    height: 4rem;
+    background-color: #fff;
+    line-height: 4rem;
+    text-indent: 24px;
+    border-bottom: 1px solid rgb(199, 195, 195);
+}
+
+.boxs>span {
+    font-size: 13px;
+}
+
+.black {
+    font-weight: 600;
+}
+
+.fone {
+    background-color: rgb(245, 245, 245);
+    height: 63rem;
+}
+
+.fone>li {
+    height: 13.2rem;
+    margin-top: 20px;
+}
+
+.fone .oo {
+    width: 11rem;
+    height: 11rem;
+}
+
+.fone .oo>img {
+    width: 100%;
+    height: 100%;
+}
+
+.fone span {
+    font-size: 15px;
+}
+
+.fone h2 {
+    font-size: 16px;
+}
+
+.rentalist {
+    width: 100%;
+    height: 8rem;
+    /* background-color: rgb(206, 128, 128); */
+    display: flex;
+    justify-content: center;
+    align-items: center;
+}
+
+.aa {
+    width: 90%;
+    height: 5rem;
+    border: 1px solid gray;
+    border-radius: 5px;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.aa>span {
+    width: 27px;
+    height: 23px;
+    background: url(../image/SecondHandList/search_03.png) no-repeat;
+    background-size: contain;
+    margin-right: 10px;
+}
+
+.aa>input {
+    width: 80%;
+    height: 2.5rem;
+    margin-left: 10px;
+    border: none;
+    outline: none;
+    border-right: 1px solid black;
+}
+
+.mostChose {
+    width: 100%;
+    height: 5rem;
+    background-color: #fff;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    border-bottom: 1px solid rgb(199, 195, 195);
+    border-top: 1px solid rgb(199, 195, 195);
+}
+
+.f_ren {
+    height: 79.4rem;
+}
+
+.f_ren .tso {
+    margin-left: 49px;
+}
+
+.green {
+    border: 1px solid rgb(109, 167, 25);
+    color: rgb(109, 167, 25);
+    padding: 3px 3px;
+    margin-top: 15px;
+}
+
+.det_img {
+    width: 100%;
+    height: 22rem;
+    background: url(../image/rentalList/banner.png) no-repeat;
+    background-size: cover;
+    position: relative;
+}
+
+.det_img>span {
+    position: absolute;
+    bottom: 12px;
+    right: -3px;
+    width: 7rem;
+    height: 4rem;
+    background-color: rgba(20, 20, 19, 0.616);
+    color: white;
+    line-height: 4rem;
+    text-align: center;
+    border-radius: 5px;
+}
+
+.det_c {
+    width: 100%;
+    height: 8.5rem;
+    display: flex;
+    align-items: center;
+    border-bottom: 1px solid rgb(199, 195, 195);
+}
+
+.det_c>h1 {
+    /* flex: 78; */
+    width: 80%;
+    /* height: 100%; */
+    /* line-height: 100%; */
+    margin-left: 10px;
+    /* border-right: 1px solid rgb(199, 195, 195); */
+}
+
+.det_c>a {
+    width: 20%;
+    height: 100%;
+    /* flex: 22; */
+    border-left: 1px solid rgb(199, 195, 195);
+    font-size: 16px;
+    background-color: rgb(236, 142, 142);
+    text-align: center;
+    padding-top: 41px;
+    box-sizing: border-box;
+    background: url(../image/rentalList/xin.png) no-repeat 26px 19px;
+    background-size: 21px 20px
+}
+
+.det_d {
+    width: 100%;
+    display: flex;
+    padding: 35px 0px;
+    border-bottom: 1px solid rgb(199, 195, 195);
+}
+
+.det_d>li {
+    flex: 1;
+    text-align: center;
+    border-right: 1px solid rgb(199, 195, 195);
+}
+
+.det_do {
+    font-size: 15px;
+}
+
+.det_dt {
+    font-size: 15px;
+    color: rgb(255, 138, 0);
+    margin-top: 5px;
+}
+
+.houseMes2 {
+    background: #fff;
+    border-bottom: 1px solid #e5e5e5;
+    padding: 0 2rem;
+    height: 15rem;
+}
+
+.houseMes2 li {
+    height: 5rem;
+    line-height: 5rem;
+    border-bottom: 1px solid #e5e5e5;
+
+}
+
+.houseMes2 li div {
+    display: inline-block;
+    width: 48%;
+    font-size: 14px;
+}
+
+.det_e {
+    width: 95%;
+    margin: 10px auto;
+    border: 1px solid rgb(199, 195, 195);
+    height: 14rem;
+    background-color: #fff;
+}
+
+.det_eo {
+    padding: 10px 10px;
+    border-bottom: 1px solid #e5e5e5;
+    background: url(../image/rentalList/right.png) no-repeat 325px 11px;
+    background-size: 13px 20px;
+}
+
+.det_eo>h1 {
+    font-size: 20px;
+    color: rgb(255, 138, 0);
+}
+
+.det_et {
+    font-size: 16px;
+    padding: 5px 5px;
+}
+
+.dedd {
+    height: 8.7rem;
+}
+
+.dedt {
+    height: 29rem;
+}
+
+.dedto {
+    display: flex;
+    flex-direction: column;
+    border: 1px solid #e5e5e5;
+}
+
+.ef {
+    height: 14rem;
+}
+
+.ef span {
+    color: red;
+}
+
+.ef p {
+    margin-top: 14px;
+    margin-left: 6px;
+}
+
+.det_f {
+    width: 100%;
+    height: 6rem;
+    background-color: #fff;
+    display: flex;
+    font-size: 15px;
+    padding: 15px 10px;
+}
+
+.fao {
+    width: 60px;
+    height: 60px;
+    background: url(../image/rentalList/man.png) no-repeat 1px 1px;
+    background-size: 60px 60px;
+}
+
+.fa {
+    margin: 1px 1px 1px 13px;
+}
+
+.ftwo {
+    padding: 41px 30px;
+    margin: -7px 1px 1px 33px;
+    background: url(../image/rentalList/icon1.png) no-repeat 29px 0px;
+    background-size: 40px 40px;
+    color: rgb(93, 203, 150);
+}
+
+.fthree {
+    padding: 42px 10px;
+    margin: -9px 1px 1px -6px;
+    background: url(../image/rentalList/icon2.png) no-repeat 5px 2px;
+    background-size: 40px 40px;
+    color: rgb(91, 174, 222);
+}
