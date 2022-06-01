@@ -1,0 +1,21 @@
+.toux{
+    top: 20px;
+}
+.login{
+    border: none;
+    top: 105px;
+    left: 94px;
+}
+.myList{
+    margin-top: -2px;
+}
+.tuichu{
+    width: 90%;
+    color: coral;
+    padding: 15px 0;
+    text-align: center;
+    box-sizing: border-box;
+    margin: 30px auto;
+    background-color: #fff;
+    border: 1px solid #ccc;
+}
