@@ -1,0 +1,244 @@
+.banner{
+    background-color: rgb(213, 208, 208);
+}
+.swiper-slide>img{
+    width: 4.2rem;
+}
+/* 分页器样式 */
+  .swiper-pagination {
+    color: aliceblue;
+    font-size: 15px;
+  }
+  .mainbg{
+      width: 100%;
+     padding-top: 4px;
+     box-sizing: border-box;
+    background-color: #fff;
+    margin-bottom: 20px;
+  }
+  .mainText{
+      width: 100%;
+      height: 1.8rem;
+      background-color: #fff;
+     margin-top: -4px;
+     margin-left: 23px;
+  }
+  .mainText h2{
+      display: block;
+      font-size: 21px;
+      width:319px ;
+      /* text-align: center; */
+     
+      margin-top: 30px;
+
+  }
+  .mainText>p{
+      margin: 10px 0;
+  }
+  .mainText>p>span{
+      color: #db4c3f;
+      font-size: 18px;
+      font-weight: 600;
+  }
+  .mainText>p:nth-of-type(1){
+      font-size: 17px;
+      background: url(../image/SecondHandList/phone.png) no-repeat 321px 1px;
+      background-size: 4%; 
+  }
+  .mainText>p:nth-of-type(2)
+  ,.text1>p:nth-of-type(2){
+      color: #b0b0b0;
+      font-size: 15px;
+  }
+  .tip{
+      display: inline-block;
+      background-color: #dee9f0;
+      padding: .06rem;
+      box-sizing: border-box;
+      color: #849aae;
+      font-size: 14px;
+      margin-right: 10px;
+      margin-top: 12px;
+  }
+  .main{
+      background-color: #fff;
+  }
+  .main>ul{
+      display: flex; 
+      justify-content:space-evenly;
+      flex-wrap: wrap;
+      /* line-height: ; */
+
+  }
+  .main>ul>li{
+      width: 50%;
+      text-indent: 10px;
+      height: 70px;
+      line-height: 70px;
+      border-bottom: 1px solid #ccc;
+
+  }
+  #morehome{
+      color: #999999;
+      text-align: center;
+  }
+  .special{
+      width: 100%;
+      margin:20px 0 ;
+      background-color: #fff;
+  }
+  .tese{
+      display: block;
+      padding: 20px 0;
+      color: #ff9326;
+      /* font-size: 30px;/ */
+      text-indent: 20px;
+      border-top: 1px solid #ccc;
+  }
+  .special>p{
+      display: block;
+      line-height: 40px;
+      width: 100%;
+      padding: 20px 20px;
+      box-sizing: border-box;
+      font-size: 14px;
+      border-bottom: 1px solid #ccc;
+      border-top: 1px solid #ccc;
+  }
+  .special>span{
+      display: block;
+      height: .6rem;
+      line-height: .6rem;
+      border-bottom:1px solid #ccc ;
+  }
+  .room{
+      width: 100%;
+      background-color: #fff;
+      /* position: relative; */
+  }
+  .geju>img,span,p,h3{
+      display: inline-block;
+  }
+  .geju>img
+  ,.contant>img{
+      width: 23%;
+      margin:20px 20px ;
+  }
+  .geju{
+      position: relative;
+  }
+  .geju>h3
+  
+  {
+      position: absolute;
+      top: 15px;
+  }
+  .room>h2{
+      border-bottom: 1px solid #ccc;
+  }
+
+  .geju>p{
+      position: absolute;
+      top: 50px;
+  }
+  .tips{
+      position: absolute;
+      right: 110px;
+      bottom: 23px;
+      display: flex;
+      justify-content: space-evenly;
+      
+  }
+  .tips>span{
+      padding: .04rem;
+  }
+.school>.tese
+,.location>.tese
+,.tuijian>.tese{
+    color: black;
+    border-bottom: 1px solid #ccc;
+    border-top: 1px solid #ccc;
+}
+.school{
+    background-color: #fff;
+    margin-top: 20px;
+}
+.listChool>li{
+    /* width: 80%; */
+    padding: 17px;
+    border-bottom: 1px solid #ccc;
+}
+.listChool>li>span{
+    color: rgb(146, 144, 144);
+}
+.location{
+    background-color: #fff;
+    margin-top: 20px;
+    border-bottom: 1px solid #ccc;
+}
+  .location>img{
+      width: 100%;
+      padding: 20px 20px;
+      box-sizing: border-box;
+  }
+  .tuijian{
+      margin-top: 20px;
+      background-color: #fff;
+      position: relative;
+  }
+  .contant>img,span,p,h1{
+    display: inline-block;
+}
+.contant>h1{
+    margin-top: 7px;   
+    margin-left: -16px;
+    font-size: 23px;
+    position: absolute;
+    height: 30px;
+    overflow: hidden;
+    text-overflow: ellipsis;
+}
+.contant{
+    position: relative;
+    border-bottom: 1px solid #ccc;
+}
+.text1{
+    position: absolute;
+    top: 42px;
+    left: 131px;
+    display: flex;
+    flex-direction: column;
+}
+.text1>p:nth-of-type(1)>strong{
+    color: #ff9326;
+    /* float: right; */
+    display: inline-block;
+    position: absolute;
+    right: -111px;
+    /* margin-right: 10px; */
+}
+.text1>p:nth-of-type(2){
+    padding: 10px 0;
+}
+.text1>p:nth-of-type(2)>span{
+    display: inline-block;
+    position: absolute;
+    right: -111px;}
+.text1>span{
+    position: absolute;
+    top: 46px;
+    left: -4px;
+    padding: 2px 2px ;
+    box-sizing: border-box;
+}
+.liyou{
+    width: 80%;
+   height: 40px;
+   line-height: 40px;
+    background-color: #f2f2f2;
+    /* position: absolute; */
+    margin-bottom: 20px;
+    margin-left: 20px;
+    text-indent: 10px;
+
+}
