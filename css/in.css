@@ -707,3 +707,7 @@ header {
     background-size: 40px 40px;
     color: rgb(91, 174, 222);
 }
+
+.tt>a {
+    color: #000;
+}
