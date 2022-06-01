@@ -15,6 +15,10 @@
             display: block;
             margin-top: -154px;
         }
+        .yanzheng button{
+            border: none;
+            background-color: #fff;
+        }
     </style>
 </head>
 
@@ -36,13 +40,13 @@
     <ul class="list2">
         <li><input type="text" placeholder="请输入手机号"></li>
         <li><input type="text" placeholder="请输入短信中的验证码"></li>
-        <li><input type="text" placeholder="请输入新密码"></li>  
+        <li><input type="text" placeholder="请输入6位密码"></li>  
         
     </ul>
     </div>
     <!--  验证码登录 -->
 <div class="yanzheng">
-    发送验证码
+   <button> 发送验证码</button>
 </div> 
 <section class="nav4">
     <div class="btn">立即注册</div>
@@ -52,3 +56,57 @@
 </body>
 
 </html>
+<script>
+    // 获取手机号 若手机号合法 点击发送验证码 开始发送
+    var phoneNumber=document.getElementsByTagName('input')[0];
+    var yanzhNumber=document.getElementsByTagName('input')[1];
+    var passWord=document.getElementsByTagName('input')[2]
+    var yanzhengbtn=document.getElementsByTagName('button')[0]
+    
+    var timer;
+    var obj;
+    var num=60;
+    obj=[];
+    yanzhengbtn.onclick=function(){
+        if(!/^1[3578]\d{9}$/.test(phoneNumber.value)){
+            alert('手机号不正确')
+        }else {
+            clearInterval(timer);
+        timer=setInterval(function(){
+            num--;
+            if(num==55){
+                for(var i=0;i<4;i++){
+                    var num_=Math.floor(Math.random()*10);
+                    obj.push(num_)
+                }
+                obj=obj.join('');
+                alert('你的验证码为：'+obj)
+                yanzhengbtn.innerHTML='你的验证码为：'+obj
+            }else if(num>55){
+                yanzhengbtn.innerHTML=num+'秒后重新发送';
+            }
+        },1000)
+        }
+    }
+// 校验验证码是否输入正确
+yanzhNumber.onblur=function(){
+    if(yanzhNumber.value!=obj){
+        alert('验证码输入有误')
+    }else{
+        alert('验证码输入正确')
+    }
+}
+// // 输入密码
+// passWord.onfocus=function(){
+//     alert('请设置包含字母数字下划线的6位密码')
+// }
+// passWord.onblur=function (){
+// //     if(passWord.value!=6){
+// //         alert('密码不是6位')
+// //     }else if(!/^\w+$/.test(passWord.value)){
+// //         alert('密码必须包含数字字母下划线！')
+// // }else{
+//     alert('密码设置成功')
+// }
+// // }
+</script>
