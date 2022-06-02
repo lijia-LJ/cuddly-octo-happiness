@@ -132,10 +132,6 @@ header {
     height: 5rem;
 }
 
-.cen>li>a {
-    width: 8rem;
-    height: 5rem;
-}
 
 .cen>li>a>div>img {
     width: 100%;
