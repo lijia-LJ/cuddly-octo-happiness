@@ -77,7 +77,7 @@ input{
     align-items: center;
     border-bottom:1px solid #ff8a00 ;
 }
-.left>img{
+.left>a>img{
     width: 84%;
 }
 .left{
@@ -86,7 +86,8 @@ input{
 .right{
     flex: 4;
 }
-.right>h2{
+.right>a>h2{
+    color: black;
     font-size: 16px;
    margin-top: 6px; 
    margin-bottom: 10px;
