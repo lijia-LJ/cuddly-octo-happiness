@@ -505,16 +505,7 @@ header {
     border-right: 1px solid black;
 }
 
-.mostChose {
-    width: 100%;
-    height: 5rem;
-    background-color: #fff;
-    display: flex;
-    justify-content: space-around;
-    align-items: center;
-    border-bottom: 1px solid rgb(199, 195, 195);
-    border-top: 1px solid rgb(199, 195, 195);
-}
+/* 区域下面的内容 */
 
 .f_ren {
     height: 79.4rem;
