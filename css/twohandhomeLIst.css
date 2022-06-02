@@ -66,7 +66,7 @@ input{
     border-left: 5px solid transparent;
     position: absolute;
     top: 16px;   
-    left: 42px; 
+    left: 50px; 
 }
 
 .home li{
@@ -106,4 +106,69 @@ input{
 }
 .home li:nth-of-type(3){
     border: none;
+}
+/* 蒙版 */
+.mBanner{
+    width: 100%;
+    height: 100%;
+    background-color: rgba(0, 0, 0, 0.5);
+    position: fixed;
+    top: 0;
+    display: none;
+    z-index: 1;
+
+}
+.quyu{
+    display: none;
+    z-index: 10;
+    
+}
+.quyuBottom{
+   width: 100%; 
+   height: 314px;
+   background-color: #fff;
+}
+.quyuBottom>.left{
+    width:100px ;
+    height: 314px;
+    background-color: #f0f0f0;
+    border-right: #CCC;
+}
+.quyuBottom>.left>.leftList{
+    width: 100%;
+    background-color: rgb(141, 92, 92);
+}
+.quyuBottom>.left>.leftList>li{
+    padding: 18px 35px;
+    background-color: #fff;
+    /* font-size: 0.19rem; */
+    font-weight: 600;
+    
+}
+
+.quyuBottom>.right{
+    width: 275px;
+    position: absolute;
+    top: 52px;
+    left: 100px;
+    
+
+}
+.quyuBottom>.right>.rightList{
+    width: 100%;    
+    display: flex;
+    flex-wrap: wrap;
+   
+    justify-content: space-evenly;
+    align-items: center; 
+}
+.quyuBottom>.right>.rightList>li{
+    width: 50%;
+    height: 45px;
+    text-align: center;
+    line-height: 45px;
+    
+}
+#yellowcolor{
+    color: #ff8a00;
 }
