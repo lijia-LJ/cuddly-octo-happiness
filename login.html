@@ -119,16 +119,16 @@ var teltwo=document.getElementsByTagName('input')[2]
                     }
                     obj = obj.join('');
                     alert('你的验证码为：' + obj)
-                    yanzhengbtn.innerHTML = '你的验证码为：' + obj
+                    yanzheng.innerHTML = '你的验证码为：' + obj
                 } else if (num > 55) {
-                    yanzhengbtn.innerHTML = num + '秒后重新发送';
+                    yanzheng.innerHTML = num + '秒后重新发送';
                 }
             }, 1000)
         }
     }
     // 校验验证码是否输入正确
-    yanzhNumber.onblur = function () {
-        if (yanzhNumber.value != obj) {
+    passtwo.onblur = function () {
+        if (passtwo.value != obj) {
             alert('验证码输入有误')
         } else {
             alert('验证码输入正确')
